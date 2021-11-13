@@ -30,8 +30,6 @@ This project was developed with the following technologies:
 
 The application can be accessed at [`localhost:8080`](http://localhost:8080)
 
-You can access the live web application [`clicking here`](https://ignite-challenge-02.netlify.app/).
-
 ## 📄 License
 
 This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
