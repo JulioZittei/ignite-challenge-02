@@ -41,18 +41,18 @@ export function MoviesContextProvider({ children }: MoviesContextProviderProps) 
   const [selectedGenre, setSelectedGenre] = useState<GenreResponseProps>({} as GenreResponseProps);
 
   useEffect(() => {
-    api.get<GenreResponseProps[]>('genres').then((response) => {
-      setGenres(response.data);
+    api.get('genres').then((response) => {
+      setGenres(response.data.genres);
     });
   }, []);
 
   useEffect(() => {
-    api.get<MovieProps[]>(`movies/?Genre_id=${selectedGenreId}`).then((response) => {
-      setMovies(response.data);
+    api.get(`movies/?Genre_id=${selectedGenreId}`).then((response) => {
+      setMovies(response.data.movies);
     });
 
-    api.get<GenreResponseProps>(`genres/${selectedGenreId}`).then((response) => {
-      setSelectedGenre(response.data);
+    api.get(`genres/${selectedGenreId}`).then((response) => {
+      setSelectedGenre(response.data.genre);
     });
   }, [selectedGenreId]);
 

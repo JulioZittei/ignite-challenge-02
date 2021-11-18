@@ -20,15 +20,22 @@ This project was developed with the following technologies:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [JSON Server](https://github.com/typicode/json-server)
+- [MirageJS](https://miragejs.com/)
 
 ## 🚀 How to run
 
 - Clone the repository and access the folder;
 - Install the dependencies with `yarn`;
-- Start the json server with `yarn server`;
 - Start the server with `yarn dev`;
 
 The application can be accessed at [`localhost:8080`](http://localhost:8080)
+
+You can access the live web application [`clicking here`](https://ignite-challenge-02.netlify.app/).
+
+<p align="center">
+  <img alt="app" src=".github/qr-code.png" width="20%">
+</p>
 
 ## 📄 License
 
