@@ -22,6 +22,7 @@ This project was developed with the following technologies:
 - [TypeScript](https://www.typescriptlang.org/)
 - [JSON Server](https://github.com/typicode/json-server)
 - [MirageJS](https://miragejs.com/)
+- [Axios](https://axios-http.com/docs/intro)
 
 ## 🚀 How to run
 
